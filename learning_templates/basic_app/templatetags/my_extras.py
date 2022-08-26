@@ -1,7 +1,7 @@
-from atexit import register
+#from atexit import register
 from django import template
 
-register = template.library()
+register = template.Library()
 
 @register.filter(name='cut')
 
